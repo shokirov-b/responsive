@@ -1,0 +1,42 @@
+.header{
+    margin-top: 44px;
+    &__bar{
+        display: none;
+        color:#333D4B;
+       margin-left: auto;
+    }
+    &__nav{
+        display: flex;
+    }
+    &__menu{
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        list-style-type: none;
+    }
+    &__item{
+        margin-right: 33px;
+    }
+    &__item:last-child{
+        margin-right: 0;
+    }
+    &__link{
+        text-decoration: none;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        color: #83888F;
+        &:hover{
+            color: #333D4B;
+        }
+    }
+}
+@media only screen and (max-width:680px) {
+    .header__menu{
+        display: none;
+    }
+    .header__bar{
+        display: block;
+    }
+}

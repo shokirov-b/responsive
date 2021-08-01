@@ -1,0 +1,108 @@
+.coffee{
+    margin-top: 45px;
+&__wrapper{
+    background-image: url("/img/Bitmap.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    padding: 117px 0 0 86px;
+}
+&__title{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+    margin: 0;
+    margin-bottom: 32px;
+}
+&__text{
+    width: 445px;
+    height: 78px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+    margin-bottom: 56px;
+}
+&__btn{
+    background: #0E8784;
+    border-radius: 6px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #FEFCF7;
+    padding: 15px 31px 16px 31px;
+    &:hover{
+        background: #66D2CF;
+        border-radius: 6px;
+    }
+}
+}
+@media only screen and (max-width:680px){
+    .coffee__wrapper{
+        padding: 60px 0 0 40px;
+        height: 500px;
+        text-align: center;
+    }
+    .coffee__title{
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 48px;
+        color: #FEFCF7;
+        margin-bottom: 30px;
+    }
+    .coffee__text{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 25px;
+        margin-right: 0;
+    }
+    .coffee__btn{
+        width: 217px;
+    }
+}
+@media only screen and (max-width:620px){
+    .coffee__text{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 20px;
+       margin-right: 0;
+    }
+}
+@media only screen and (max-width:440px){
+    .coffee__wrapper{
+        padding: 60px 0 0 20px;
+        height: 400px;
+    }
+    .coffee__title{
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 35px;
+        line-height: 30px;
+        color: #FEFCF7;
+    }
+    .coffee__text{
+        font-style: normal;
+        width: 240px;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        margin: 0;
+    }
+    .coffee__btn{
+        padding: 7px 10px;
+    }
+}
